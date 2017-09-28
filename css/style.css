@@ -1,0 +1,19 @@
+* {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+nav {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
