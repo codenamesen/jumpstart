@@ -26,7 +26,7 @@ nav {
   padding: 11.85rem 0rem;
 }
 
-div.jumbotron h1 {
+.jumbotron h1 {
   font-family: Monoton;
   font-size: 7.1rem;
   color: white;
@@ -37,14 +37,14 @@ div.jumbotron h1 {
   text-align: center;
 }
 
-div.jumbotron p {
+.jumbotron p {
   width: 51.3rem;
   margin: 0 auto;
   color: white;
   text-align: center;
 }
 
-div.jumbotron a {
+.jumbotron a {
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
@@ -53,11 +53,11 @@ div.jumbotron a {
   margin-top: 2.8rem;
 }
 
-div.jumbotron a:hover {
+.jumbotron a:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-div.jumbotron a:active {
+.jumbotron a:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -67,6 +67,7 @@ h2 {
   color: #339bd1;
   margin-bottom: 20px;
 }
+
 .image-container img {
   width: 100%;
   height: auto;
@@ -84,6 +85,11 @@ h3.product ul li {
   color: rgba(0, 0, 0, 0.7);
 }
 
-div.middle {
+.projects {
   margin-bottom: 5.85rem;
+}
+
+.footer {
+  padding-top: 5.2rem;
+  background-color: #f3f3f3;
 }
