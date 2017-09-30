@@ -18,36 +18,28 @@ nav {
   background-color: inherit;
 }
 
-.jumbotron-bike {
-  background-image: url(../images/jumbotron-bike.jpg);
+.jumbotron{
+  height: 44rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 11.85rem 0rem;
+}
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
 }
 
 .jumbotron-beer {
   background-image: url(../images/jumbotron-beer.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 11.85rem 0rem;
 }
 
 .jumbotron-flowers {
   background-image: url(../images/jumbotron-flowers.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 11.85rem 0rem;
 }
 
 .jumbotron-duffel {
   background-image: url(../images/jumbotron-duffel.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 11.85rem 0rem;
 }
 
 .jumbotron h1 {
@@ -63,13 +55,7 @@ nav {
 
 @media screen only(max-width:413px) {
   .jumbotron h1 {
-    font-family: Monoton;
     font-size: 5.7rem;
-    color: white;
-    text-shadow: -1px -1px 0 #000,
-                  1px -1px 0 #000,
-                  -1px -1px 0 #000,
-                  1px -1px 0 #000;
   }
 }
 
@@ -80,7 +66,14 @@ nav {
   text-align: center;
 }
 
-.jumbotron a {
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  /*width: 100%;
+  text-align: center;*/
+}
+
+.relative-wrapper a {
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
@@ -88,11 +81,11 @@ nav {
   margin-top: 2.8rem;
 }
 
-.jumbotron a:hover {
+.relative-wrapper a:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.jumbotron a:active {
+.relative-wrapper a:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
