@@ -1,6 +1,21 @@
 html {
   font-size: 14px;
-  font-family: "Open Sans";
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #339bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 nav {
@@ -69,11 +84,11 @@ nav {
 .relative-wrapper {
   position: relative;
   top: -16rem;
-  /*width: 100%;
-  text-align: center;*/
+  width: 100%;
+  text-align: center;
 }
 
-.relative-wrapper a {
+a.btn {
   background-color: #399bd1;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   width: 11.4rem;
@@ -81,19 +96,21 @@ nav {
   margin-top: 2.8rem;
 }
 
-.relative-wrapper a:hover {
+a.btn:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
 }
 
-.relative-wrapper a:active {
+a.btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-  font-size: 1.7rem;
-  font-weight: bold;
-  color: #339bd1;
-  margin-bottom: 20px;
+.featured-project {
+  margin-top: -7rem;
+}
+
+.featured-project .image-container {
+  height: 19rem;
+  margin-top: 20px;
 }
 
 .image-container {
@@ -114,8 +131,6 @@ h2 {
 
 
 h3.product {
-  font-size: 1.3rem;
-  font-weight: bold;
   color: #339bd1;
 }
 
@@ -144,12 +159,4 @@ h3.product ul li {
   max-width: 42rem;
   text-align: center;
   margin: 0 auto;
-}
-
-.footer a {
-  background-color: #399bd1;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  width: 11.4rem;
-  padding: 1.3rem 0;
-  margin-top: 2.8rem;
 }
